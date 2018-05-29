@@ -1,7 +1,29 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+ray = DefensivePlayer.create(name: "Ray Lewis", image: "")
+jj = DefensivePlayer.create(name: "J.J. Watt", image: "")
+ed = DefensivePlayer.create(name: "Ed Reed", image: "")
+troy = DefensivePlayer.create(name: "Troy Polamalu", image: "")
+lt = DefensivePlayer.create(name: "Lawrence Taylor", image: "")
+von = DefensivePlayer.create(name: "Von Miller", image: "")
+ronnie = DefensivePlayer.create(name: "Ronnie Lott", image: "")
+jack = DefensivePlayer.create(name: "Jack Lambert", image: "")
+bruce = DefensivePlayer.create(name: "Bruce Smith", image: "")
+michael = DefensivePlayer.create(name: "Michael Strahan", image: "")
+clay = DefensivePlayer.create(name: "Clay Matthews", image: "")
+
+Question.create(question: "What is the capital of Lithuania?", answer: "Vilnius", defensive_player: ray)
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
+# Question.create(question: "", answer: "", defensive_player: )
